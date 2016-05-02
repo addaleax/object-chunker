@@ -1,0 +1,33 @@
+{
+  "name": "object-chunker",
+  "version": "1.0.0",
+  "description": "Chunk object-mode streams",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "nyc": "^6.4.1"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addaleax/object-chunker.git"
+  },
+  "keywords": [
+    "stream",
+    "streams",
+    "chunk",
+    "object"
+  ],
+  "author": "Anna Henningsen <anna@addaleax.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/addaleax/object-chunker/issues"
+  },
+  "homepage": "https://github.com/addaleax/object-chunker#readme"
+}
