@@ -41,7 +41,9 @@ Chunker.prototype._transform = function(chunk, encoding, callback) {
 };
 
 Chunker.prototype._flush = function(callback) {
-  this.push(this.currentChunk);
+  if (this.currentChunk.length !== 0) {
+    this.push(this.currentChunk);
+  }
   callback();
 };
 
